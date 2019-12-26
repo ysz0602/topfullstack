@@ -23,9 +23,9 @@ export class Course {
     // @ApiModelProperty({
     //     description: '课时',
     // })
-    @arrayProp({
-        itemsRef: 'Episode',
-    })
-    // tslint:disable-next-line:array-type
-    episodes: Ref<Episode>[];
+    // @arrayProp({
+    //     itemsRef: 'Episode',
+    // })
+    // // tslint:disable-next-line:array-type
+    // episodes: Ref<Episode>[];
 }

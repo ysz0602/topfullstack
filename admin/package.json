@@ -8,10 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@smallwei/avue": "^2.3.3",
+    "@types/axios": "^0.14.0",
+    "axios": "^0.19.0",
     "core-js": "^3.4.3",
     "element-ui": "^2.4.5",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
+    "vue-ele-form": "^0.6.10",
     "vue-property-decorator": "^8.3.0",
     "vue-router": "^3.1.3"
   },
