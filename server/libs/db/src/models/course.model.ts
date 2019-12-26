@@ -1,5 +1,5 @@
 import { prop, modelOptions, arrayProp, Ref } from '@typegoose/typegoose';
-import { ApiModelProperty } from '@nestjs/swagger';
+import { ApiProperty } from '@nestjs/swagger';
 import { Episode } from './episode.model';
 
 @modelOptions({
@@ -8,19 +8,19 @@ import { Episode } from './episode.model';
     },
 })
 export class Course {
-    @ApiModelProperty({
+    @ApiProperty({
         description: '课程名称',
     })
     @prop()
     name: string;
 
-    @ApiModelProperty({
+    @ApiProperty({
         description: '封面图',
     })
     @prop()
     cover: string;
 
-    // @ApiModelProperty({
+    // @ApiProperty({
     //     description: '课时',
     // })
     // @arrayProp({
